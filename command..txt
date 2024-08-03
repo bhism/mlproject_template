@@ -1,0 +1,84 @@
+https://www.youtube.com/watch?v=1m3CPP-93RI
+
+
+
+# to install  vertual env
+python -m venv venv
+
+# (if error ==)Change the execution policy:
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+
+#To activate virtual environment
+venv\Scripts\activate
+
+
+
+# alway create .gitignore file when you create repo on git and choose python language in the box
+
+echo "# mlproject_template" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/bhism/mlproject_template.git
+git push -u origin main
+
+git remote add origin https://github.com/bhism/mlproject_template.git
+git branch -M main
+git push -u origin main
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#setup.py , src file , __init__ file , "-e ." , (20:00)
+
+created src folder and  if you want the src folder to be found as the package folder
+you need to create a __init__.py file in it.
+
+when setup.py file run it will be where is the __init__.py file is and it will consider it as a package and start building it . so later on you can import it as a package anywhere you want to just like other package eg numpy , pandas
+
+to create general project structure
+1) create a v env
+2) create a setup.py file
+3) create a src folder and __init__.py file
+4) create requirements.txt
+
+
+
+
+# 40 min 
+
+project structure
+exception handling 
+logging
+
+create a component folder and __init__ file in that folder because component will be created as a package and will be import to some other file location.
+component are like model which we create like data ingestion model which deal with intake of data form any source.
+
+data ingestion , data transformation, model evaluation , data validation , optimization, etc
+
+#46 min
+
+pipeline(for now two type)
+-training
+-prediction
+
+utils.py file contain any functionality which can be used anywhere or other want.
+ read a data from mongo database, upload the model to somewhere , or read data from some database
+
+# 59:30 end
+exception handling
+
+# 59: 30
+logger handling
+
+
+# 1:14:00 EDA and problem statement
+
+
+# 1:35:00 model training start 
+
+
+
+#
