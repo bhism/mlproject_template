@@ -18,6 +18,19 @@ git push -u origin main
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 # to install  vertual env
 python -m venv venv
 
