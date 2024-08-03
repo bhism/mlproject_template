@@ -1,6 +1,21 @@
 https://www.youtube.com/watch?v=1m3CPP-93RI
 
 
+# alway create .gitignore file when you create repo on git and choose python language in the box
+
+git init
+git add README.md
+
+    or  git add .  
+
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/bhism/mlproject_template.git
+git push -u origin main
+    if error : 
+        git pull origin main
+
+
 
 # to install  vertual env
 python -m venv venv
@@ -11,10 +26,10 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 #To activate virtual environment
 venv\Scripts\activate
+git push -u origin main
 
 
 
-# alway create .gitignore file when you create repo on git and choose python language in the box
 
 echo "# mlproject_template" >> README.md
 git init
