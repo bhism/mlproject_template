@@ -26,6 +26,30 @@ python -m venv venv
 venv\Scripts\activate
 
 
+4)
+>README.md
+>command.txt 
+>setup.py
+>requirements.txt
+>notebook
+    >data
+>src
+    >__init__.py
+    >exception.py
+    >logger.py
+    >utils.py
+    >component
+        >__init__.py
+        >data_injestion.py
+        >data_transformation.py
+        >data_trainer.py
+    >pipeline
+        >__init__.py
+        >predict_pipeline.py
+        >train_pipeline.py
+
+
+pip install -r requirements.txt
 
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
