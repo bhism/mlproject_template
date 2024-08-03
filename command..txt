@@ -1,7 +1,6 @@
 https://www.youtube.com/watch?v=1m3CPP-93RI
 
-
-# alway create .gitignore file when you create repo on git and choose python language in the box
+1) 
 
 git init
 git add README.md
@@ -15,6 +14,15 @@ git remote add origin https://github.com/bhism/mlproject_template.git
 git push -u origin main
     if error : 
         git pull origin main
+
+
+2) 
+# alway create .gitignore file when you create repo on git and choose python language in the box
+
+3) 
+python -m venv venv
+venv\Scripts\activate
+
 
 
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
